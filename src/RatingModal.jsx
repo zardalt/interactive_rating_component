@@ -9,7 +9,7 @@ export default function RatingModal({userRating, setUserRating, handleSubmit}) {
     <div id="ratingModal">
       <img src={StarIcon} alt="" />
       <h2>How did we do?</h2>
-      <p>
+      <p className="text">
         Please let us know how we did with your support request. All feedback is
         appreciated to help us improve our offering!
       </p>

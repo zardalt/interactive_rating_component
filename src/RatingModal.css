@@ -1,23 +1,9 @@
 @scope (#ratingModal) {
-  --light-gray: color-mix(in srgb, white 5%, var(--g-900));
-
   img {
     background-color: var(--light-gray);
     padding: .8em;
     border-radius: 20em;
     margin-block-end: .8em;
-  }
-
-  h2 {
-    margin-block-end: .5em;
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: .9rem;
-    color: var(--g-500);
-    line-height: 1.5em;
-    margin-block-end: 1.5em;
   }
 
   .btns {

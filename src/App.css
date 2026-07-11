@@ -18,6 +18,8 @@
   --g-500: hsl(217, 12%, 63%);
   --g-900: hsl(213, 19%, 18%);
   --g-950: hsl(216, 12%, 8%);
+
+  --light-gray: color-mix(in srgb, white 5%, var(--g-900));
 }
 
 *,
@@ -47,4 +49,24 @@ main {
   width: 85%;
   padding: 1.5em;
   border-radius: 1em;
+  max-width: 21em;
+}
+
+button {
+  cursor: pointer;
+  transition: 
+    background-color 100ms ease-in,
+    opacity 100ms ease-in;
+}
+
+h2 {
+  margin-block-end: .5em;
+  font-size: 1.7rem;
+}
+
+p.text {
+  font-size: .9rem;
+  color: var(--g-500);
+  line-height: 1.5em;
+  margin-block-end: 1.5em;
 }

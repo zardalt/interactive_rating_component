@@ -1,0 +1,20 @@
+@scope (#thankYou) {
+  & {
+    text-align: center;
+  }
+
+  img {
+    margin-block-end: 1em;
+  }
+
+  img + p {
+    color: var(--o-500);
+    padding: .6em 1.2em;
+    background-color: var(--light-gray);
+    font-size: .9rem;
+    width: fit-content;
+    border-radius: 2em;
+    margin: 0 auto;
+    margin-block-end: 2.2em;
+  }
+}
