@@ -1,11 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import RatingModal from './RatingModal';
+import ThankYouModal from './ThankYouModal';
+import { useState } from 'react';
 
-function App() {
-  
+export default function App() {
+  const [hasRated, setHasRated] = useState(false);
+  const [userRating, setUserRating] = useState(null);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setHasRated(true);
+  }
+
+  return (
+    <>
+      { hasRated ? <ThankYouModal userRating={userRating}/> : <RatingModal userRating={userRating} setUserRating={setUserRating} handleSubmit={handleSubmit}/>}
+    </>
+  );
 }
-
-export default App
