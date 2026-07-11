@@ -1,6 +1,7 @@
 import StarIcon from "./assets/icon-star.svg";
 import RatingBtn from "./components/RatingBtn";
 import { useState } from "react";
+import './RatingModal.css';
 
 export default function RatingModal({userRating, setUserRating, handleSubmit}) {
 

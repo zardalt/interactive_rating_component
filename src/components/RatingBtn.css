@@ -1,0 +1,21 @@
+.btns > button {
+  --size: 3.125em; /* 50px */
+
+  width: var(--size);
+  height: var(--size);
+  background-color: var(--light-gray);
+  border: none;
+  border-radius: 3em;
+  margin-block-end: 1.8em;
+  font-weight: bold;
+
+  &[aria-checked=true] {
+    background-color: var(--w);
+    color: var(--g-900);
+  }
+
+  &:not(&[aria-checked=true]):hover {
+    background-color: var(--o-500);
+    color: var(--g-900);
+  }
+}
