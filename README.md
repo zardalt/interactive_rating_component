@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/zardalt/interactive_rating_component)
-- Live Site URL: [Add live site URL here](https://zardalt.github.io/interactive_rating_component/)
+- Solution URL: [https://zardalt.github.io/interactive_rating_component/](https://zardalt.github.io/interactive_rating_component/)
+- Live Site URL: [https://zardalt.github.io/interactive_rating_component/](https://zardalt.github.io/interactive_rating_component/)
 
 ## My process
 
@@ -46,7 +46,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Vite] (https://vite.dev)
+- [Vite](https://vite.dev) - Bundler
 
 ## Author
 

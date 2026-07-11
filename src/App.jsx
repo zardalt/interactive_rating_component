@@ -13,8 +13,25 @@ export default function App() {
   }
 
   return (
-    <main>
-      { hasRated ? <ThankYouModal userRating={userRating}/> : <RatingModal userRating={userRating} setUserRating={setUserRating} handleSubmit={handleSubmit}/>}
-    </main>
+    <>
+      <link
+        rel="preload"
+        href="./assets/illustration-thank-you.svg"
+        as="image"
+        type="image/svg+xml"
+      />
+      
+      <main>
+        {hasRated ? (
+          <ThankYouModal userRating={userRating} />
+        ) : (
+          <RatingModal
+            userRating={userRating}
+            setUserRating={setUserRating}
+            handleSubmit={handleSubmit}
+          />
+        )}
+      </main>
+    </>
   );
 }
