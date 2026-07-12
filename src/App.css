@@ -56,7 +56,8 @@ button {
   cursor: pointer;
   transition: 
     background-color 100ms ease-in,
-    opacity 100ms ease-in;
+    opacity 100ms ease-in,
+    color 100ms ease-in;
 }
 
 h2 {

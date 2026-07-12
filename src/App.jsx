@@ -21,7 +21,7 @@ export default function App() {
         type="image/svg+xml"
       />
       
-      <main>
+      <main aria-live="polite">
         {hasRated ? (
           <ThankYouModal userRating={userRating} />
         ) : (
